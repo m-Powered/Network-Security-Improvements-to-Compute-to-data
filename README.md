@@ -1,5 +1,6 @@
-# Ocean Protocol - Ocean DAO (Round 7) Local Network Egress Traffic Improvements to the Kubernetes configuration file for Compute-to-data
+## Ocean Protocol - Ocean DAO (Round 7) Local Network Egress Traffic Improvements to the Kubernetes configuration file for Compute-to-data
 Improve the Kubernetes configuration to prevent all network egress traffic from the pod which contains the algorithm.
+------
 
 It will be the case that in a [compute-to-data](https://docs.oceanprotocol.com/tutorials/compute-to-data-algorithms/ "Ocean Protocol - Writing Algorithms for Compute to Data") (C2D) job, the data set publisher and the algorithm publisher will be separate entities and unknown to each other. The data set publisher has to trust that the algorithm won't steal the entire data set. The algorithm could accomplish this by simply copying the inputs folder to the outputs folder. To prevent this, the data set publisher could only allow trusted algorithms and vet them by potentially reviewing the code, and running the algorithm and analyzing the output.
 
