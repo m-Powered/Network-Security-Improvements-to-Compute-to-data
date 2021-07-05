@@ -7,3 +7,13 @@ It will be the case that in a [compute-to-data](https://docs.oceanprotocol.com/t
 It would still be easy for an algorithm to steal the data set by uploading it to a file server. To prevent this, we would change the Kubernetes configuration to prevent all network egress traffic from the pod which contains the algorithm and improve security. This will have a positive effect on C2D adoption.
 
 This [github issue](https://github.com/oceanprotocol/multi-repo-issue/issues/90#issuecomment-804264134/ "allowNetworkAccess: boolean - if algo pod has network access during compute (not implemented yet in C2D)") states that the **allowNetworkAccess** is not yet implemented, but we believe this is imperative to C2D's success and adoption and that is why we are applying for an Ocean DOA (Round 7) and creating an Open Source repository where all other Ocean Developers can integrate into their projects and/or use as reference.
+
+**There will be two deliverables for the Ocean DAO (Round 7)**
+
+**Milestone #1**
+A public repository will be made to these Ocean components: allowNetworkAccess: boolean - if algo pod has network access during compute (not implemented yet in C2D) as per this GitHub issue (https://github.com/oceanprotocol/multi-repo-issue/issues/90#issuecomment-804264134/ 1) to help other development teams implement tighter security protocols.
+*Expected Completion Date: July 19, 2021*
+
+**Milestone #2**
+In addition, we will provide examples and clear code documentation in order to help other developer teams build access policies and interested teams in building and deploying their own kubernetes mini-cube. If other teams are interested, we can participate on an episode of “Sailor Lounge” dedicated to our proposal.
+*Expected Completion Date: Aug. 3, 2021*
