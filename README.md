@@ -14,4 +14,4 @@ This [github issue](https://github.com/oceanprotocol/multi-repo-issue/issues/90#
 A public repository will be made to these Ocean components: allowNetworkAccess: boolean - if algo pod has network access during compute (not implemented yet in C2D) as per this GitHub issue (https://github.com/oceanprotocol/multi-repo-issue/issues/90#issuecomment-804264134/ 1) to help other development teams implement tighter security protocols.
 *Expected Completion Date: July 19, 2021*
 
-The code that we published to fix **allNetworkAccess** and complete **Milestone #1** can be found [here] (https://github.com/mPowered-io/operator-engine)
+The code that we published to fix **allowNetworkAccess** and complete **Milestone #1** can be found [here] (https://github.com/mPowered-io/operator-engine/ "allowNetworkAccess")
